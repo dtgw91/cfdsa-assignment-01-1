@@ -28,7 +28,7 @@ public class HomeController {
                                defaultValue = "Guest") String name) {
 
         model.addAttribute("message", randomDisplay.get((int) (Math.random() * 5)));
-        model.addAttribute("url", "https://github.com/dtgw91/cfdsa-assignment-1");
+        model.addAttribute("url", "https://github.com/dtgw91/cfdsa-assignment-01-1");
         return "home";
 
     }
